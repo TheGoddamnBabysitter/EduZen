@@ -1,0 +1,39 @@
+.activity-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.activity-title {
+  color: #0284c7;
+  font-size: 2em;
+}
+
+.msg-container {
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 1px 1px 5px rgba(49, 95, 180, 0.781);
+  padding: 50px;
+}
+
+.btn-link {
+  margin-top: 20px;
+}
+
+.home-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.home-button:hover {
+  background-color: #45a049;
+}

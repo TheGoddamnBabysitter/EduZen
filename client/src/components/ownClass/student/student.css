@@ -1,0 +1,73 @@
+.student-row {
+  border-bottom: 1px solid #ddd;
+}
+
+.student-code {
+  padding: 10px;
+}
+
+.delete-button {
+  margin-right: 10px;
+  background-color: #dc2626;
+  padding: 2px 5px;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.student-name {
+  padding: 10px;
+}
+
+.attendance-button-container {
+  padding: 10px;
+}
+
+.present-button {
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 2px 5px;
+  border-radius: 6px;
+}
+
+.absent-button {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 2px 5px;
+  border-radius: 6px;
+}
+
+.attendance-status {
+  padding: 10px;
+}
+@media (max-width: 600px) {
+    .student-row {
+        font-size: 12px;
+    }
+
+    .student-code, .student-name, .attendance-button-container, .attendance-status {
+        padding: 5px;
+    }
+
+    .delete-button, .present-button, .absent-button {
+        padding: 5px;
+    }
+}
+@media (max-width: 400px) {
+    .student-row {
+        font-size: 10px;
+    }
+
+    .student-code, .student-name, .attendance-button-container, .attendance-status {
+        padding: 5px;
+    }
+
+    .delete-button, .present-button, .absent-button {
+        padding: 5px;
+    }
+}

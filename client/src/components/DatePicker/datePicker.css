@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  /* cursor: url("https://user-images.githubusercontent.com/9720597/32018236-8e466e82-b9c9-11e7-84a0-038d861bfcd4.png")
+      32 32,
+    default; */
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font: 25px "Roboto", sans-serif;
+  transform: scale(1.3);
+}
+
+.center .date-picker {
+  display: flex;
+  padding: 50px 20px;
+  margin: 30px 0;
+  overflow: hidden;
+}
+.center .day,
+.center .month,
+.center .year {
+  position: relative;
+  height: 50px;
+  margin: 0 10px;
+  border-top: 1px solid #0522f3;
+  border-bottom: 1px solid #0522f3;
+  border-radius: 0;
+}
+.center .day:before,
+.center .month:before,
+.center .year:before,
+.center .day:after,
+.center .month:after,
+.center .year:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 80px;
+  height: 50px;
+  background-color: #000000;
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: 1;
+}
+.center .day:before,
+.center .month:before,
+.center .year:before {
+  top: -51px;
+}
+.center .day:after,
+.center .month:after,
+.center .year:after {
+  bottom: -51px;
+}
+.center .day li,
+.center .month li,
+.center .year li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 50px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.center .reset {
+  width: 120px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  color: #000000;
+  background-color: #1558f3ec;
+  box-shadow: 0 1px 10px -2px #2466fb;
+  font-weight: 300;
+}
+.center .reset:active {
+  transform: scale(0.95);
+}
+.date-picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.date-picker__day,
+.date-picker__month,
+.date-picker__year {
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 6px;
+  border: 1px solid #000000;
+  color: #d4d4d4;
+  background-color: #1f2937;
+}
+
+.date-picker__day:focus,
+.date-picker__month:focus,
+.date-picker__year:focus {
+  outline: none;
+  border-color: #000000;
+}

@@ -1,0 +1,114 @@
+/* Access.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.btn-Acc {
+  border-radius: 6px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: #082f49;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 3px;
+  cursor: pointer;
+  width: 150px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.btn-Acc-sign_in {
+  background-color: #042f2e;
+}
+.btn-Acc-sign_up{
+  background-color: #2e1065;
+}
+
+/* .btn-Acc:hover,
+.btn-Acc:active {
+  color: #ffffff;
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff,
+    0 0 40px #00ffff;
+} */
+.btn-Acc:hover,
+.btn-Acc:active {
+  color: #ffffff;
+  scale: 1.05;
+}
+
+.btn-Acc:active {
+  transform: translateY(3px);
+  border: none;
+}
+.btn-Acc:focus {
+  outline: 0px auto -webkit-focus-ring-color;
+  /* box-shadow: 0 0 10px #075985, 0 0 20px #075985, 0 0 30px #075985,
+    0 0 40px #075985; */
+}
+.N-line {
+  height: 2px;
+  width: 300px;
+  margin: 0px auto;
+  background-color: #075985;
+  /* box-shadow: 0 0 10px #075985, 0 0 20px #075985, 0 0 30px #075985,
+    0 0 40px #075985; */
+}
+.input-acc {
+  width: 300px; /* Full width */
+  padding: 10px; /* Padding around the text */
+  margin: 20px 0; /* Margin top and bottom */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  border: 2px solid #075985; /* Border color */
+  border-radius: 6px; /* Rounded borders */
+  background-color: #042f2e; /* Dark Blue background */
+  color: #ffffff; /* White text color */
+  font-size: 16px; /* Text size */
+  transition: all 0.3s ease-in-out; /* Smooth transition on hover */
+  font-weight: bold;
+}
+
+.input-acc:focus {
+  border-color: #075985; /* Border color on focus */
+  /* box-shadow: 0 0 10px #075985, 0 0 20px #075985, 0 0 30px #075985,
+    0 0 40px #075985; */
+  outline: none; /* Remove default outline */
+  background-color: #042f2e;
+}
+@media (max-width: 600px) {
+  .input-acc {
+    width: 200px;
+    font-size: 14px;
+  }
+  .btn-Acc {
+    width: 120px;
+    font-size: 14px;
+  }
+  .N-line {
+    width: 200px;
+  }
+}
+@media (max-width: 400px) {
+  .input-acc {
+    width: 150px;
+    font-size: 12px;
+  }
+  .btn-Acc {
+    font-size: 12px;
+  }
+  .N-line {
+    width: 150px;
+  }
+}

@@ -1,0 +1,73 @@
+/* Mobile devices */
+@media only screen and (max-width: 800px) {
+  .btn-Acc {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .home-button {
+    width: 100%;
+  }
+
+  #exmUpdate {
+    padding: 10px;
+  }
+
+  #loginMsg {
+    padding: 10px;
+  }
+  .Hide-on-600 {
+    display: none;
+  }
+  .input-cell {
+    width: 120%;
+    font-size: 14px;
+    transform: translateX(-80%);
+  }
+  .in-left {
+    display: ;
+  }
+  .leftByF {
+    transform: translateX(-60%);
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+  .btn-Acc {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .home-button {
+    width: 80%;
+  }
+
+  #exmUpdate {
+    padding: 20px;
+  }
+
+  #loginMsg {
+    padding: 20px;
+  }
+}
+
+/* Desktops and laptops */
+@media only screen and (min-width: 1025px) {
+  .btn-Acc {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .home-button {
+    width: 60%;
+  }
+
+  #exmUpdate {
+    padding: 30px;
+  }
+
+  #loginMsg {
+    padding: 30px;
+  }
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.comingSoonSection {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.comingSoonSection img {
+  width: 40%;
+  margin-bottom: 35px;
+}
+.comingSoonSection h1 {
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.comingSoonSection p {
+  font-size: 1.3rem;
+  color: #777;
+  padding: 10px 20px;
+  text-align: center;
+}
